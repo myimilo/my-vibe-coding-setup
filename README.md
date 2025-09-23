@@ -16,6 +16,7 @@ The script supports the following model providers and their corresponding models
 | Alibaba (阿里) | `DASHSCOPE_API_KEY` | `https://dashscope.aliyuncs.com/api/v2/apps/claude-code-proxy` | `qwen3-coder-plus` |
 | DeepSeek | `DEEPSEEK_API_KEY` | `https://api.deepseek.com/anthropic` | `deepseek-chat` |
 | Moonshot (月之暗面) | `MOONSHOT_API_KEY` | `https://api.moonshot.cn/anthropic` | `kimi-k2-0905-preview` |
+| LongCat | `LONGCAT_API_KEY` | `https://api.longcat.chat/anthropic` | `LongCat-Flash-Chat` |
 
 ## Installation
 
@@ -36,6 +37,7 @@ The script supports the following model providers and their corresponding models
    export DASHSCOPE_API_KEY=your_alibaba_key
    export DEEPSEEK_API_KEY=your_deepseek_key
    export MOONSHOT_API_KEY=your_moonshot_key
+   export LONGCAT_API_KEY=your_longcat_key
    ```
 
 ## Usage
@@ -54,6 +56,9 @@ claude --model deepseek-chat
 
 # Use Moonshot's Kimi K2
 claude --model kimi-k2-0905-preview
+
+# Use LongCat's model
+claude --model LongCat-Flash-Chat
 
 # Use default Claude model (no proxy)
 claude

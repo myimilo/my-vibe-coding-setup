@@ -13,6 +13,7 @@
 #   export DASHSCOPE_API_KEY=your_key   # For alibaba: qwen3-coder-plus      #
 #   export DEEPSEEK_API_KEY=your_key    # For deepseek: deepseek-chat        #
 #   export MOONSHOT_API_KEY=your_key    # For moonshot: kimi-k2-0905-preview #
+#   export LONGCAT_API_KEY=your_key     # For longcat: LongCat-Flash-Chat    #
 #                                                                            #
 # -------------------------------------------------------------------------- #
 
@@ -28,6 +29,7 @@ typeset -A PROVIDERS=(
   alibaba "DASHSCOPE_API_KEY|https://dashscope.aliyuncs.com/api/v2/apps/claude-code-proxy|qwen3-coder-plus"
   deepseek "DEEPSEEK_API_KEY|https://api.deepseek.com/anthropic|deepseek-chat"
   moonshot "MOONSHOT_API_KEY|https://api.moonshot.cn/anthropic|kimi-k2-0905-preview"
+  longcat "LONGCAT_API_KEY|https://api.longcat.chat/anthropic|LongCat-Flash-Chat"
 )
 
 claude() {
