@@ -89,3 +89,23 @@ The script provides helpful error messages:
 ## Timeout Configuration
 
 All proxied requests use a 10-minute timeout (`API_TIMEOUT_MS=600000`) to accommodate longer processing times for complex tasks.
+
+## MCP Integration
+
+This setup includes support for Model Context Protocol (MCP) servers to enhance AI assistant capabilities with additional tools and resources.
+
+### Available MCP Servers
+
+- **cf-docs**: Cloudflare documentation search and resources
+- **context7**: Up-to-date library documentation and code examples
+- **chrome-devtools**: Browser developer tools integration
+
+### Configuration
+
+For detailed MCP setup instructions and commands for different AI assistants (Claude, Gemini, Codex), see [mcp.md](./mcp.md).
+
+MCP servers provide additional tools like:
+- Access to current documentation for various libraries
+- Cloudflare product documentation and resources
+- Browser debugging and inspection capabilities
+- Real-time code examples and API references
