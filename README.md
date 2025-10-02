@@ -102,7 +102,7 @@ This setup includes support for Model Context Protocol (MCP) servers to enhance 
 
 ### Configuration
 
-For detailed MCP setup instructions and commands for different AI assistants (Claude, Gemini, Codex), see [mcp.md](./mcp.md).
+For detailed MCP setup instructions and commands for different AI assistants (Claude, Gemini, Codex), see [MCP.md](./MCP.md).
 
 MCP servers provide additional tools like:
 - Access to current documentation for various libraries
